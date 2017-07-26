@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://remn:remn@ds163301.mlab.com:63301/remn';
+const url = 'mongodb://bug100000:myself@ds161262.mlab.com:61262/sustar';
 
 mongoose.connect(url);
 
@@ -17,4 +17,4 @@ let userShema = Schema({
 });
 
 
-module.exports.user = mongoose.model('user', userShema);
+module.exports.react = mongoose.model('react', userShema);
